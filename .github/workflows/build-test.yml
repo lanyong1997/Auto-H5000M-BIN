@@ -231,7 +231,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: immortalwrt-mt7987-${{ github.run_number }}
-          path: artifacts/
+          path: immortalwrt/bin/targets/mt798x/mt7987/
           retention-days: 14
 
       - name: 创建GitHub发布版
